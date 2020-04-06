@@ -1,3 +1,5 @@
+
+// to populate questions
 var populate = function () {
     if (quiz.endQuiz()) {
         showScores();
@@ -20,6 +22,7 @@ var populate = function () {
     }
 }
 
+//Function to show score
 var showScores = function(){
     var quizOverHtml = "<h1>Result</h1>"
     quizOverHtml = "<h2 id = 'score'>Your Score: " + quiz.score + "</h2>";
@@ -42,32 +45,28 @@ var guess = function(id, guessTheAnswer){
 
 }
 
-
-
-
-
-
+//questions array
 var questions = [
     new Question (
          "Commonly used data types DO Not Include:",
-         ["1. strings", "2. booleans", "3. alerts", "4. numbers"],
+         ["strings", "booleans", "alerts", "numbers"],
         "alerts"),
         
     new Question ("The condition in an if / else statement is enclosed with ________.",
-    ["1. quotes", "2. curly brackets", "3. parenthesis", "4. square brackets"],
-    "3. parenthesis"),
+    ["quotes", "curly brackets", "parenthesis", "square brackets"],
+    "parenthesis"),
     
     new Question ( "Arrays in JavaScript can be used to store _______",
-    ["1. numbers and strings", "2. other arrays", "3. booleans", "4. all of the above"],
-    "4. all of the above"),
+    ["numbers and strings", "other arrays", "booleans", "all of the above"],
+    "all of the above"),
 
     new Question ( "String values must be enclosed within ________ when being assigned to variables.",
-    ["1. commas", "2. curly brackets", "3. quotes", "4. parenthesis"],
+    ["commas", "curly brackets", "quotes", "parenthesis"],
     "3. quotes"),
 
     new Question ( "A very useful tool used during development and debugging for printing content to the debugger is:",
-    ["1. JavaScript", "2. terminal/bash", "3. for loops", "4. console.log"],
-    "4. console.log")
+    [" JavaScript", "terminal/bash", "for loops", "console.log"],
+    "console.log")
 
 ];
 
