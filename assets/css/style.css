@@ -1,0 +1,57 @@
+.grid {
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 10px 50px;
+    border-radius: 50px;
+   
+}
+
+
+.high-scores {
+    width: 120px;
+    color: blueviolet;
+    display: inline-block
+}
+
+.time {
+    width: 40px;
+   
+    float: right;
+    color: blueviolet;  
+}
+.grid h1 {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: darkgray;
+    text-align: center;
+
+}
+
+.grid #question {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    text-align: left;
+    display : block;
+    background-color: blueviolet;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 50px;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+
+}
+#question {
+    font-size: 25px;
+    text-align: center;
+}
+
